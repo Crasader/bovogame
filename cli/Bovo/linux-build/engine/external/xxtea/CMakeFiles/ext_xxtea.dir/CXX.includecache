@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pat/Projects/Game/bovo/cli/Bovo/cocos2d/external/xxtea/xxtea.cpp
+xxtea.h
+/home/pat/Projects/Game/bovo/cli/Bovo/cocos2d/external/xxtea/xxtea.h
+memory.h
+-
+stdlib.h
+-
+
+/home/pat/Projects/Game/bovo/cli/Bovo/cocos2d/external/xxtea/xxtea.h
+stddef.h
+-
+inttypes.h
+-
+stdint.h
+-
+

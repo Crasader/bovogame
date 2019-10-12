@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pat/Projects/Game/bovo/cli/Bovo/cocos2d/external/md5/md5.c
+md5.h
+/home/pat/Projects/Game/bovo/cli/Bovo/cocos2d/external/md5/md5.h
+string.h
+-
+
+/home/pat/Projects/Game/bovo/cli/Bovo/cocos2d/external/md5/md5.h
+

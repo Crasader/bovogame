@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.6)
+find_library(Protobuf REQUIRED)
+add_library(pb SHARED "msg.pb.cc;msg.pb.h;pb.cc")
+target_link_libraries(pb protobuf)
+add_library(xchk SHARED "xchk.cc")

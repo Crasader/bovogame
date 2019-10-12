@@ -1,0 +1,12 @@
+*~
+*.o
+*.a
+*.so
+config/CMakeCache.txt
+config/CMakeFiles
+config/cmake_install.cmake
+service
+cservice
+lualib
+skynet
+luaclib

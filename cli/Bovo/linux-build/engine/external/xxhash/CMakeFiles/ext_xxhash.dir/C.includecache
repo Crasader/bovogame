@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pat/Projects/Game/bovo/cli/Bovo/cocos2d/external/xxhash/xxhash.c
+xxhash.h
+/home/pat/Projects/Game/bovo/cli/Bovo/cocos2d/external/xxhash/xxhash.h
+stdlib.h
+-
+string.h
+-
+stdint.h
+-
+
+/home/pat/Projects/Game/bovo/cli/Bovo/cocos2d/external/xxhash/xxhash.h
+

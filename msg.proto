@@ -1,0 +1,34 @@
+syntax = "proto2";
+
+package bovo_message;
+
+message BovoMessage {
+  optional uint32 magic = 1;
+
+  enum CmdType {
+    NONE = 0;
+    JOIN = 1; // request
+    STYLE = 2; // response
+    PUT = 3; // request, response
+    QUIT = 4; // request, response
+    TOKEN = 5; // reponse
+  };
+
+  enum StatusType {
+    OKAY = 0;
+    ERROR = 1;
+    WON = 2;
+    LOST = 3;
+  };
+
+  required CmdType cmd = 2;
+  optional StatusType status = 3;
+
+  optional bytes name = 4;
+  optional bytes address = 5;
+  
+  optional uint32 markstyle = 6;
+
+  optional uint32 x = 7;
+  optional uint32 y = 8;
+};
